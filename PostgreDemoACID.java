@@ -21,7 +21,7 @@ public class PostgreDemoACID {
   
   // Load the PostgreSQL driver
   // Connect to the database for the project with credentials
-  Connection conn = DriverManager.getConnection("jdbc:postgresql://localhost:5432/db_project", "postgres", "Anqi218549");
+  Connection conn = DriverManager.getConnection("jdbc:postgresql://localhost:5432/db_project", "postgres", "123456");
 
   // For atomicity
   conn.setAutoCommit(false);
